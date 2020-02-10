@@ -1,6 +1,6 @@
 # setify
 
-An app for creating Spotify playlists from concert setlist.
+An app for creating Spotify playlists from concert setlists.
 
 Created with React and Express, deployed with Netlify.
 
