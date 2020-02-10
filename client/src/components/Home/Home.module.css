@@ -1,0 +1,16 @@
+.Home{
+    text-align: center;
+    font-size: 2rem;
+    color: #212121
+}
+.Login{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 3rem auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.Login a{
+    margin: 1rem auto;
+}

@@ -1,0 +1,71 @@
+.Concert{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 98%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 2fr 6fr 4fr;
+    align-items: center;
+    color: #212121
+}
+.Concert *{
+    margin: .75rem 1.25rem;
+}
+.Date{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+}
+
+
+.Icons{
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.Toggle{
+    cursor: pointer;
+}
+.Spotify{
+    background-color: #1DB954;
+    color: #fff;
+    border-radius: 500px;
+    width: 160px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 18px 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+.Spotify *{
+    padding: 0;
+    margin: 0;
+}
+.Spotify:hover{
+    background-color: #1ed760;
+}
+.NoSongs{
+    background-color: rgba(0,0,0,.125);
+}
+@media (max-width: 900px){
+    .Concert{
+        grid-template-columns: 2fr 6fr;
+    }
+    .Icons{
+        grid-column: span 2;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Icons a{
+        margin: 0;
+    }
+}
